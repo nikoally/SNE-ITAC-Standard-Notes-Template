@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=blue,
+    pdfpagemode=FullScreen,
+}
+
+\bibliography{bibliography}
+
+\usepackage{subfiles}
+\usepackage{titling}
+\setlength{\droptitle}{20pt}
+
+\newcommand{\sitenumber}{}
+
+\title{Southern New England Industrial Training \& Assessment Center Standardized Notes Worksheets}
+\author{Nicholas Bailey}
+
+
+\begin{document}
+
+\input{CoverPage}
+
+\clearpage
+\subfile{Overview} \clearpage
+\subfile{UtilityAnalysis} \clearpage
+
+\clearpage
+
+\subfile{Pre-assessment} \clearpage
+
+\clearpage
+
+\subfile{Compressor} \clearpage
+\subfile{NewLighting} \clearpage
+\subfile{Boiler} \clearpage
+\subfile{ProcessEquipment} \clearpage
+\subfile{Drone} \clearpage
+\subfile{Chiller} \clearpage
+\subfile{HVAC} \clearpage
+
+\end{document}
